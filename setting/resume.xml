@@ -1,0 +1,364 @@
+<resume>
+    <summary ignore="true">
+        About 3 years of professional experience in Software Development and passionate about analyzing, developing, and managing New Ideas. 
+        I am Flexible in working with different technologies and tools and in playing different roles in the group. 
+        I have excellent Problem-Solving and Teamwork skills and open to New Challenges.
+    </summary>
+    <personal-info>
+        <first-name>Amir Hossein</first-name>
+        <last-name>Nadjafabadi Farahani</last-name>
+        <headline>Software Engineer</headline>
+        <birth-year>1995</birth-year>
+        <email ignore="true">Ask me</email>
+        <phone ignore="true">Ask me</phone>
+        <address ignore="true">Ask me</address>
+        <location>
+            <city>Milan</city>
+            <country>Italy</country>
+        </location>
+        <linkedin>www.linkedin.com/in/najafabadi/</linkedin>
+        <github>github.com/najafabadiah</github>
+        <website>farahani-amir.com</website>
+    </personal-info>
+    <education>
+        <degree>
+            <name>Master of Science in Computer Science</name>
+            <institution>University of Milan</institution>
+            <location>
+                <city>Milan</city>
+                <country>Italy</country>
+            </location>
+            <start-date>2019</start-date>
+            <end-date>2023</end-date>
+            <thesis>
+                <title>Regulatory Authority vs Car manufacturers over the Autonomous Cars' Policies</title>
+                <context>
+                    With the advent of artificial intelligence, many car manufacturers have been starting to produce autonomous
+                    cars. This brings attention to autonomous car policies because they could cause harm to different road users such as cyclists, 
+                    pedestrians, passengers, etc. One considerable worry is how third parties, such as regulatory authorities, could define a total policy for the environment. 
+                    In this regard, the regulation could have more control over the distributions of accidents which might be along or against car manufacturer policy for their car. 
+                    For instance, what if regulatory authorities, maybe based on the majority of peoples’ preferences and road users’ distribution, decide to distribute people's death? 
+                    What do they do? The objective is to minimize the car manufacturer's financial liability by giving a target distribution of accident fatalities over different 
+                    road users provided by the regulatory authority. Using Reinforcement Learning as the primary method can help us to achieve our goal.
+                </context>
+                <supervisors>
+                    <supervisor>Prof. Nicola Basilica</supervisor>
+                    <supervisor>Prof. Mahmoudreza Babaei</supervisor>
+                </supervisors>
+            </thesis>
+            <description>Master's degree in Computer Science with a focus on Artificial Intelligence and Machine Learning.</description>
+            <relevant-coursework>
+                <course>Artificial Intelligence</course>
+                <course>Methods for Image Processing</course>
+            </relevant-coursework>
+        </degree>
+        <degree>
+            <name>[ERASMUS] Master of Science in Computer Science</name>
+            <institution>University of Zurich</institution>
+            <location>
+                <city>Zurich</city>
+                <country>Switzerland</country>
+            </location>
+            <start-date>2020</start-date>
+            <end-date>2021</end-date>
+            <description>Master's degree in Computer Science with a focus on Machine Learning and Software Engineering.</description>
+            <relevant-coursework>
+                <course>Vision Algorithms for Mobile Robotics</course>
+                <course>Deep Learning</course>
+                <course>Advanced Software Engineering</course>
+            </relevant-coursework>
+        </degree>
+        <degree>
+            <name>Bachelor of Science in Information Technology</name>
+            <institution>Sharif University of Technology</institution>
+            <location>
+                <city>Tehran</city>
+                <country>Iran</country>
+            </location>
+            <start-date>2013</start-date>
+            <end-date>2018</end-date>
+            <description>Bachelor's degree in Computer Engineering with a focus on Artificial Intelligence and Machine Learning.</description>
+        </degree>
+    </education>
+    <experience>
+        <industry>
+            <work>
+                <company>PwC Italy</company>
+                <location>
+                    <city>Milan</city>
+                    <country>Italy</country>
+                </location>
+                <start-date>2020 February</start-date>
+                <end-date>Present</end-date>
+                <title>Automation Engineer</title>
+                <description>
+                    <item>Design, develop, and configure software systems to meet client requirements.</item>
+                    <item>Apply knowledge of technologies, applications, methodologies, processes, and tools to support the clients.</item>
+                </description>
+                <technologies>
+                    <technology>Appian</technology>
+                    <technology>UiPath</technology>
+                    <technology>Automaion Anywhere</technology>
+                    <technology>C#</technology>
+                    <technology>VB</technology>
+                    <technology>Github</technology>
+                    <technology>XML</technology>
+                    <technology>MS Excel</technology>
+                </technologies>
+                <skills>
+                    <skill>Agile methodologies</skill>
+                    <skill>Process Automation</skill>
+                    <skill>Teamwork</skill>
+                    <skill>BPM</skill>
+                </skills>
+            </work>
+            <work>
+                <company>Hirbod Steel Co.</company>
+                <location>
+                    <city>Tehran</city>
+                    <country>Iran</country>
+                </location>
+                <start-date>2018 September</start-date>
+                <end-date>2019 September</end-date>
+                <title>Software Engineer - Backend Developer</title>
+                <description>
+                    <item>Design and develop an ERP system. It consists of different modules such as HR, Internal Communication System, Logistics, and Supply Chain.</item>
+                    <item>Launching the software saved up to 70% of the daily paperwork time.</item>
+                </description>
+                <technologies>
+                    <technology>C#</technology>
+                    <technology>ASP.NET MVC</technology>
+                    <technology>ASP.NET WebApi</technology>
+                    <technology>Entity Framework</technology>
+                    <technology>MS LINQ</technology>
+                    <technology>MS SQLServer</technology>
+                    <technology>TFS</technology>
+                    <technology>Javascript</technology>
+                    <technology>jQuery</technology>
+                    <technology>HTML</technology>
+                    <technology>CSS</technology>
+                    <technology>Bootstrap</technology>
+                    <technology>Postman</technology>
+                    <technology>JSON</technology>
+                </technologies>
+                <skills>
+                    <skill>Agile methodologies</skill>
+                    <skill>Teamwork</skill>
+                    <skill>Problem Solving</skill>
+                    <skill>Software Development</skill>
+                    <skill>Software Maintenance</skill>
+                </skills>
+            </work>
+            <work>
+                <company>IPMADAR Co.</company>
+                <location>
+                    <city>Tehran</city>
+                    <country>Iran</country>
+                </location>
+                <start-date>2016 February</start-date>
+                <end-date>2019 September</end-date>
+                <title>Software Engineer - Intern</title>
+                <description>
+                    <item>As an intern software developer work in different fields including web design, smart home, and embedded systems.</item>
+                </description>
+                <technologies>
+                    <technology>C#</technology>
+                    <technology>Internet of Things (IoT)</technology>
+                    <technology>Javascript</technology>
+                    <technology>HTML</technology>
+                    <technology>CSS</technology>
+                    <technology>Python</technology>
+                    <technology>Raspberry Pi</technology>
+                </technologies>
+            </work>
+        </industry>
+
+        <academic ignore="true">
+            <work>
+                <company>Max Plank Institute</company>
+                <location>
+                    <city>Berlin</city>
+                    <country>Germany</country>
+                </location>
+                <start-date>2022 October</start-date>
+                <end-date>2023 April</end-date>
+                <title>Research Assistant</title>
+                <description>
+                    <item>Research about Autonomous Cars.</item>
+                </description>
+                <technologies>
+                    <technology>Python</technology>
+                    <technology>Reinforcement Learning (RL)</technology>
+                    <technology>Computer Vision (CV)</technology>
+                    <technology>CARLA</technology>
+                </technologies>
+                <skills>
+                    <skill>Research</skill>
+                    <skill>Problem Solving</skill>
+                </skills>
+        </academic>
+    </experience>
+    <projects>
+        <project>
+            <name>Autonomous Cars</name>
+            <date>2022</date>
+            <description>
+                <item>Title: Regulatory Authority vs Car manufacturers over the Autonomous Cars' Policies</item>
+                <item>
+                    Context: With the advent of artificial intelligence, many car manufacturers have been starting to produce autonomous
+                    cars. This brings attention to autonomous car policies because they could cause harm to different road users such as cyclists, 
+                    pedestrians, passengers, etc. One considerable worry is how third parties, such as regulatory authorities, could define a total policy for the environment. 
+                    In this regard, the regulation could have more control over the distributions of accidents which might be along or against car manufacturer policy for their car. 
+                    For instance, what if regulatory authorities, maybe based on the majority of peoples’ preferences and road users’ distribution, decide to distribute people's death? 
+                    What do they do? The objective is to minimize the car manufacturer's financial liability by giving a target distribution of accident fatalities over different 
+                    road users provided by the regulatory authority. Using Reinforcement Learning as the primary method can help us to achieve our goal.
+                </item>
+            </description>
+            <technologies>
+                <technology>Python</technology>
+                <technology>Reinforcement Learning (RL)</technology>
+                <technology>Computer Vision (CV)</technology>
+                <technology>CARLA</technology>
+            </technologies>
+        </project>
+        <project>
+            <name>Communication System</name>
+            <date>2022</date>
+            <description>
+                <item>Develop and maintenance an Internal Communication System according to the company’s needs and saved paperwork time by 70%.</item>
+                <item>Responsive web application with a huge number of useful features.</item>
+            </description>
+            <technologies>
+                <technology>C#</technology>
+                <technology>ASP.NET MVC</technology>
+                <technology>ASP.NET WebApi</technology>
+                <technology>Entity Framework</technology>
+                <technology>MS LINQ</technology>
+                <technology>MS SQLServer</technology>
+                <technology>TFS</technology>
+                <technology>Javascript</technology>
+                <technology>jQuery</technology>
+                <technology>HTML</technology>
+                <technology>CSS</technology>
+                <technology>Bootstrap</technology>
+                <technology>Postman</technology>
+                <technology>JSON</technology>
+            </technologies>
+        </project>
+    </projects>
+    <skills>
+        <skillset>
+            <name>General</name>
+            <description>
+                <item>Algorithms and Data Structures</item>
+                <item>Object-Oriented Programming</item>
+                <item>Database Design</item>
+                <item>System Design</item>
+                <item>CI/CD</item>
+                <item>Docker</item>
+                <item>Machine Learning</item>
+                <item>Reinforcement Learning</item>
+                <item>Robotic Process Automation (RPA)</item>
+                <item>BPM</item>
+                <item>Project Management</item>
+                <item>XML</item>
+                <item>JSON</item>
+                <item>RESTful API</item>
+                <item>Agile methodologies</item>
+                <item>Scrum</item>
+            </description>
+        </skillset>
+        <skillset>
+            <name>Programming Languages</name>
+            <description>
+                <item>Python</item>
+                <item>C#</item>
+                <item>JavaScript</item>
+                <item>Nodejs</item>
+            </description>
+        </skillset>
+        <skillset>
+            <name>Database</name>
+            <description>
+                <item>MS SQLServer</item>
+                <item>MySQL</item>
+                <item>SQL</item>
+            </description>
+        </skillset>
+        <skillset>
+            <name>Frameworks</name>
+            <description>
+                <item>ASP.NET MVC</item>
+                <item>ASP.NET WebApi</item>
+                <item>Entity Framework</item>
+                <item>MS LINQ</item>
+                <item>MS SQLServer</item>
+                <item>Django</item>
+                <item>NumPy</item>
+                <item>SciKit-learn</item>
+            </description>
+        </skillset>
+        <skillset>
+            <name>Tools</name>
+            <description>
+                <item>Visual Studio</item>
+                <item>Visual Studio Code</item>
+                <item>TFS</item>
+                <item>Postman</item>
+                <item>CARLA</item>
+            </description>
+        </skillset>
+        <skillset>
+            <name>Web Development</name>
+            <description>
+                <item>HTML</item>
+                <item>CSS</item>
+                <item>Bootstrap</item>
+                <item>jQuery</item>
+            </description>
+        </skillset>
+        <skillset>
+            <name>Languages</name>
+            <description>
+                <item>Persian (Native)</item>
+                <item>English (Advanced)</item>
+                <item>German (Beginner)</item>
+            </description>
+        </skillset>
+    </skills>
+    <honor-awards>
+        <award>
+            <name>SEMP Scholarship</name>
+            <location>
+                <city>Zurich</city>
+                <country>Switzerland</country>
+            </location>
+            <date>2020</date>
+            <description>
+                <item>Won the SEMP Scholarship for studying at University of Zurich</item>
+            </description>
+        </award>
+        <honor>
+            <name>Mathematics Olympiad</name>
+            <location>
+                <city>Tehran</city>
+                <country>Iran</country>
+            </location>
+            <date>2011 and 2012</date>
+            <description>
+                <item>Semifinalist, national organization for development of exceptional talents (Iranian National Olympiad)</item>
+            </description>
+        </honor>
+        <honor>
+            <name>Informatics Olympiad</name>
+            <location>
+                <city>Tehran</city>
+                <country>Iran</country>
+            </location>
+            <date>2011</date>
+            <description>
+                <item>Semifinalist, national organization for development of exceptional talents (Iranian National Olympiad)</item>
+            </description>
+        </honor>
+    </honor-awards>
+</resume>
