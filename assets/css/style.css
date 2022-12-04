@@ -1,11 +1,175 @@
 #container {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 #profile-pic {
   max-width: 200px;
 }
 
+#name {
+  padding-top: 20px;
+}
+
+#headline {
+  font-weight: 200;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 575px) {
+  .text-end {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #navbarTogglerDemo01 {
+    text-align: center !important;
+  }
+}
+
+.navbar-toggler {
+  margin: auto;
+}
+
+#sidebar,
+#content {
+  padding-top: 20px;
+}
+
 #sidebar {
-  background-color: aliceblue;
+  background-color: #cecece;
+}
+
+#content {
+  background-color: #e5e5e5;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  display: none;
+  background-color: #0d6efd;
+  color: white;
+}
+
+#personal-info {
+  display: none;
+}
+
+#summary {
+  display: block;
+  margin-top: 20px;
+}
+
+#education {
+  display: block;
+  margin-top: 30px;
+}
+
+#experience {
+  display: block;
+  margin-top: 30px;
+}
+
+#projects {
+  display: block;
+  margin-top: 30px;
+}
+
+#skills {
+  display: block;
+  margin-top: 30px;
+}
+
+#honor-awards {
+  display: block;
+  margin-top: 30px;
+}
+
+#summary > h2,
+#experience > h2,
+#education > h2,
+#projects > h2,
+#skills > h2,
+#honor-awards > h2 {
+  color: #0d6efd;
+}
+
+#content .label {
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.work,
+.degree,
+.project,
+.honor,
+.award {
+  margin-top: 30px;
+}
+
+.skillset {
+  margin-top: 15px;
+}
+
+.skillset ul {
+  padding-left: 0;
+}
+
+.logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.skill-item {
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: small;
+}
+
+.programming-language {
+  background-color: #177e89;
+  color: white;
+}
+
+.general {
+  background-color: #02020a;
+  color: white;
+}
+
+.low-code {
+  background-color: #bfacaa;
+  color: black;
+}
+
+.tools {
+  background-color: #6b9ac4;
+  color: white;
+}
+
+.framework {
+  background-color: #b497d6;
+  color: black;
+}
+
+.web-development {
+  background-color: #335c67;
+  color: white;
+}
+
+.database {
+  background-color: #4059ad;
+  color: white;
 }

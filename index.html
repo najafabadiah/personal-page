@@ -9,28 +9,644 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
     <link
-      rel="javascript"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <div class="container py-4">
+    <div class="container">
       <div class="row">
-        <div class="col-4" id="sidebar">
-          <img
-            src="assets/image/profile-transparent.png"
-            class="img-fluid rounded-circle mx-auto d-block"
-            alt="Amir Farahani"
-            id="profile-pic"
-          />
-          <div class="row"></div>
+        <div class="col-md-4" id="sidebar">
+          <div id="profile">
+            <img
+              src="assets/image/profile-transparent.png"
+              class="img-fluid rounded-circle mx-auto d-block"
+              alt="Amir Farahani"
+              id="profile-pic"
+            />
+            <div>
+              <h1 class="text-center" id="name">Amir Farahani</h1>
+              <h3 class="text-center" id="headline">Software Engineer</h3>
+            </div>
+          </div>
+          <div class="row" id="menu">
+            <nav class="navbar navbar-expand-md">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarTogglerDemo01"
+                  aria-controls="navbarTogglerDemo01"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <ul class="nav flex-column me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="summary-menu-item">
+                      <a class="nav-link" href="#summary">Summary</a>
+                    </li>
+                    <li class="nav-item" id="education-menu-item">
+                      <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item" id="experience-menu-item">
+                      <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item" id="projects-menu-item">
+                      <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item" id="skills-menu-item">
+                      <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item" id="honor-awards-menu-item">
+                      <a class="nav-link" href="#honor-awards"
+                        >Honors and Awards</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
-        <div class="col-8" id="content">
-          <h1 id="name">Amir Farahani</h1>
-          <p id="headline">Software Engineer</p>
+        <div class="col-md-8 px-4" id="content">
+          <button
+            type="button"
+            class="btn btn-floating btn-lg"
+            id="btn-back-to-top"
+          >
+            <i class="fas fa-arrow-up"></i>
+          </button>
+          <div id="summary">
+            <h2>Summary</h2>
+            <p>
+              About 3 years of professional experience in Software Development
+              and passionate about analyzing, developing, and managing New
+              Ideas. I am Flexible in working with different technologies and
+              tools and in playing different roles in the group. I have
+              excellent Problem-Solving and Teamwork skills and open to New
+              Challenges.
+            </p>
+          </div>
+          <div id="education">
+            <h2>Education</h2>
+            <div class="row degree">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>M.Sc. Computer Science</h5>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2019 Sep - 2023 Jun</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h6>
+                      <img
+                        src="assets/image/unimi-logo.png"
+                        alt="Unimi logo"
+                        class="logo"
+                      />University of Milan |
+                      <span class="italic">Milan, Italy</span>
+                    </h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <span class="bold">Thesis: </span> Autonomous Car
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row degree">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>M.Sc. Computer Science - ERASMUS</h5>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2020 Sep - 2021 Jul</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h6>
+                      <img
+                        src="assets/image/uzh-logo.png"
+                        alt="UZH logo"
+                        class="logo"
+                      />University of Zurich |
+                      <span class="italic">Zurich, Switzerland</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row degree">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>B.Sc. Information Technology</h5>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2013 Sep - 2018 Jul</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h6>
+                      <img
+                        src="assets/image/Sharif-logo.png"
+                        alt="Sharif logo"
+                        class="logo"
+                      />Sharif University of Technology |
+                      <span class="italic">Tehran, Iran</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="experience">
+            <h2>Experience</h2>
+            <div class="row work">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>Intelligent Automation - Associate</h5>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2021 Feb - Present</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h6>
+                      <img
+                        src="assets/image/pwc-logo.png"
+                        alt="PwC logo"
+                        class="logo"
+                      />PwC Italy | <span class="italic">Milan, Italy</span>
+                    </h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <ul>
+                      <li>
+                        Design, develop, and configure software systems to meet
+                        client requirements.
+                      </li>
+                      <li>
+                        Apply knowledge of technologies, applications,
+                        methodologies, processes, and tools to support the
+                        clients.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <span class="programming-language skill-item">C#</span>
+                    <span class="programming-language skill-item">VB</span>
+                    <span class="low-code skill-item">Appian</span>
+                    <span class="low-code skill-item">UiPath</span>
+                    <span class="low-code skill-item">Automation Anywhere</span>
+                    <span class="general skill-item">Process Automation</span>
+                    <span class="general skill-item">BPM</span>
+                    <span class="general skill-item">XML</span>
+                    <span class="general skill-item">Agile methodologies</span>
+                    <span class="general skill-item">Teamwork</span>
+                    <span class="tools skill-item">Github</span>
+                    <span class="tools skill-item">MS Excel</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row work">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>Software Engineer - Backend Developer</h5>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2018 Sep - 2019 Sep</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h6>
+                      <img
+                        src="assets/image/hirbod-logo.png"
+                        alt="Hirbod Steel logo"
+                        class="logo"
+                      />Hirbod Steel Co. |
+                      <span class="italic">Tehran, Iran</span>
+                    </h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <ul>
+                      <li>
+                        Design and develop an ERP system. It consists of
+                        different modules such as HR, Internal Communication
+                        System, Logistics, and Supply Chain.
+                      </li>
+                      <li>
+                        Launching the software saved up to 70% of the daily
+                        paperwork time.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <span class="programming-language skill-item">C#</span>
+                    <span class="programming-language skill-item"
+                      >Javascript</span
+                    >
+                    <span class="framework skill-item">ASP.NET MVC</span>
+                    <span class="framework skill-item">ASP.NET WebApi</span>
+                    <span class="framework skill-item">Entity Framework</span>
+                    <span class="framework skill-item">MS LINQ</span>
+                    <span class="database skill-item">MS SQLServer</span>
+                    <span class="web-development skill-item">jQuery</span>
+                    <span class="web-development skill-item">HTML</span>
+                    <span class="web-development skill-item">CSS</span>
+                    <span class="web-development skill-item">Bootstrap</span>
+                    <span class="tools skill-item">Postman</span>
+                    <span class="tools skill-item">TFS</span>
+                    <span class="general skill-item">JSON</span>
+                    <span class="general skill-item">RESTful api</span>
+                    <span class="general skill-item">Agile methodologies</span>
+                    <span class="general skill-item">Teamwork</span>
+                    <span class="general skill-item">Problem Solving</span>
+                    <span class="general skill-item">Software Development</span>
+                    <span class="general skill-item">Software Maintenance</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row work">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>Software Engineer - Intern</h5>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2016 Feb - 2016 Sep</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h6>
+                      <img
+                        src="assets/image/ipmadar-logo.png"
+                        alt="IPMADAR logo"
+                        class="logo"
+                      />IPMADAR Co. | <span class="italic">Tehran, Iran</span>
+                    </h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <ul>
+                      <li>
+                        As an intern software developer work in different fields
+                        including web design, smart home, and embedded systems.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <span class="programming-language skill-item">C#</span>
+                    <span class="programming-language skill-item">Python</span>
+                    <span class="programming-language skill-item"
+                      >Javascript</span
+                    >
+                    <span class="general skill-item"
+                      >Internet of Things (IoT)</span
+                    >
+                    <span class="tools skill-item">Raspberry Pi</span>
+                    <span class="web-development skill-item">HTML</span>
+                    <span class="web-development skill-item">CSS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="projects">
+            <h2>Projects</h2>
+            <div class="row project">
+              <div class="col">
+                <div class="col">
+                  <h5>Autonomous Car</h5>
+                  <h6>
+                    Max Plank Institute |
+                    <span class="italic">Berlin, Germany</span>
+                  </h6>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="bold">Title: </span>Regulatory Authority vs
+                      Car manufacturers over the Autonomous Cars' Policies.
+                    </li>
+                    <li>
+                      <span class="bold">Context: </span>With the advent of
+                      artificial intelligence, many car manufacturers have been
+                      starting to produce autonomous cars. This brings attention
+                      to autonomous car policies because they could cause harm
+                      to different road users such as cyclists, pedestrians,
+                      passengers, etc. One considerable worry is how third
+                      parties, such as regulatory authorities, could define a
+                      total policy for the environment. In this regard, the
+                      regulation could have more control over the distributions
+                      of accidents which might be along or against car
+                      manufacturer policy for their car. For instance, what if
+                      regulatory authorities, maybe based on the majority of
+                      peoples’ preferences and road users’ distribution, decide
+                      to distribute people's death? What do they do? The
+                      objective is to minimize the car manufacturer's financial
+                      liability by giving a target distribution of accident
+                      fatalities over different road users provided by the
+                      regulatory authority. Using Reinforcement Learning as the
+                      primary method can help us to achieve our goal.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <span class="programming-language skill-item">Python</span>
+                  <span class="general skill-item"
+                    >Reinforcement Learning (RL)</span
+                  >
+                  <span class="general skill-item">Computer Vision (CV)</span>
+                  <span class="tools skill-item">CARLA</span>
+                </div>
+              </div>
+            </div>
+            <div class="row project">
+              <div class="col">
+                <div class="col">
+                  <h5>Communication System</h5>
+                  <h6>
+                    Hirbod Steel Co. |
+                    <span class="italic">Tehran, Iran</span>
+                  </h6>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      Develop and maintenance an Internal Communication System
+                      according to the company’s needs and saved paperwork time
+                      by 70%.
+                    </li>
+                    <li>
+                      Responsive web application with a huge number of useful
+                      features.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <span class="programming-language skill-item">C#</span>
+                  <span class="programming-language skill-item"
+                    >Javascript</span
+                  >
+                  <span class="framework skill-item">ASP.NET MVC</span>
+                  <span class="framework skill-item">ASP.NET WebApi</span>
+                  <span class="framework skill-item">Entity Framework</span>
+                  <span class="framework skill-item">MS LINQ</span>
+                  <span class="database skill-item">MS SQLServer</span>
+                  <span class="tools skill-item">TFS</span>
+                  <span class="tools skill-item">Postman</span>
+                  <span class="web-development skill-item">jQuery</span>
+                  <span class="web-development skill-item">HTML</span>
+                  <span class="web-development skill-item">CSS</span>
+                  <span class="web-development skill-item">Bootstrap</span>
+                  <span class="general skill-item">JSON</span>
+                  <span class="general skill-item">RESTful api</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="skills">
+            <h2>Skills</h2>
+            <div class="row skillset">
+              <h5>General</h5>
+              <div class="col">
+                <ul>
+                  <li class="general skill-item">
+                    Algorithms and Data Structures
+                  </li>
+                  <li class="general skill-item">
+                    Object-Oriented Programming
+                  </li>
+                  <li class="general skill-item">Database Design</li>
+                  <li class="general skill-item">System Design</li>
+                  <li class="general skill-item">CI/CD</li>
+                  <li class="general skill-item">Docker</li>
+                  <li class="general skill-item">Machine Learning</li>
+                  <li class="general skill-item">Reinforcement Learning</li>
+                  <li class="general skill-item">
+                    Robotic Process Automation (RPA)
+                  </li>
+                  <li class="general skill-item">BPM</li>
+                  <li class="general skill-item">Project Management</li>
+                  <li class="general skill-item">XML</li>
+                  <li class="general skill-item">JSON</li>
+                  <li class="general skill-item">RESTful API</li>
+                  <li class="general skill-item">Agile methodologies</li>
+                  <li class="general skill-item">Scrum</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row skillset">
+              <h5>Programming Languages</h5>
+              <div class="col">
+                <ul>
+                  <li class="programming-language skill-item">Python</li>
+                  <li class="programming-language skill-item">C#</li>
+                  <li class="programming-language skill-item">JavaScript</li>
+                  <li class="programming-language skill-item">Nodejs</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row skillset">
+              <h5>Low-Code</h5>
+              <div class="col">
+                <ul>
+                  <li class="low-code skill-item">Appian</li>
+                  <li class="low-code skill-item">UiPath</li>
+                  <li class="low-code skill-item">Automation Anywhere</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row skillset">
+              <h5>Framework</h5>
+              <div class="col">
+                <ul>
+                  <li class="framework skill-item">ASP.NET MVC</li>
+                  <li class="framework skill-item">ASP.NET WebApi</li>
+                  <li class="framework skill-item">Entity Framework</li>
+                  <li class="framework skill-item">MS LINQ</li>
+                  <li class="framework skill-item">MS SQLServer</li>
+                  <li class="framework skill-item">Django</li>
+                  <li class="framework skill-item">NumPy</li>
+                  <li class="framework skill-item">SciKit-learn</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row skillset">
+              <h5>Web Development</h5>
+              <div class="col">
+                <ul>
+                  <li class="web-development skill-item">HTML</li>
+                  <li class="web-development skill-item">CSS</li>
+                  <li class="web-development skill-item">Bootstrap</li>
+                  <li class="web-development skill-item">jQuery</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row skillset">
+              <h5>Database</h5>
+              <div class="col">
+                <ul>
+                  <li class="database skill-item">MS SQLServer</li>
+                  <li class="database skill-item">MySQL</li>
+                  <li class="database skill-item">SQL</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row skillset">
+              <h5>Tools</h5>
+              <div class="col">
+                <ul>
+                  <li class="tools skill-item">Visual Studio</li>
+                  <li class="tools skill-item">Visual Studio Code</li>
+                  <li class="tools skill-item">TFS</li>
+                  <li class="tools skill-item">Postman</li>
+                  <li class="tools skill-item">CARLA</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="honor-awards">
+            <h2>Honors & Awards</h2>
+            <div class="row award">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>SEMP Scholarship</h5>
+                    <h6>
+                      <span class="italic">Switzerland</span>
+                    </h6>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2020</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>
+                      Won the SEMP Scholarship for studying at University of
+                      Zurich
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row honor">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>Mathematics Olympiad</h5>
+                    <h6>
+                      <span class="italic">Iran</span>
+                    </h6>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2011 and 2012</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>
+                      Semifinalist, national organization for development of
+                      exceptional talents (Iranian National Olympiad)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row honor">
+              <div class="col">
+                <div class="row py-2">
+                  <div class="col-sm-9">
+                    <h5>Informatics Olympiad</h5>
+                    <h6>
+                      <span class="italic">Iran</span>
+                    </h6>
+                  </div>
+                  <div class="col-sm-3 text-end">
+                    <span class="italic">2011</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>
+                      Semifinalist, national organization for development of
+                      exceptional talents (Iranian National Olympiad)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <footer class="row">
+        <div class="col">
+          <p>© <span id="current-year"></span>. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
+    <script>
+      const today = new Date();
+      const year = today.getFullYear();
+      document.getElementById("current-year").innerHTML = year;
+
+      //Get the button
+      let mybutton = document.getElementById("btn-back-to-top");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      mybutton.addEventListener("click", backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>
