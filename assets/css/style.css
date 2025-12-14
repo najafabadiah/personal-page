@@ -1,18 +1,36 @@
+/* Modern Typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
 #container {
   padding-top: 20px;
 }
 
 #profile-pic {
   max-width: 200px;
+  border: 4px solid white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
 }
 
 #name {
   padding-top: 20px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 #headline {
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
+  color: #64748b;
 }
 
 @media only screen and (max-width: 575px) {
@@ -31,17 +49,31 @@
   margin: auto;
 }
 
-#sidebar,
-#content {
-  padding-top: 20px;
-}
-
 #sidebar {
-  background-color: #cecece;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  overflow: hidden;
 }
 
 #content {
-  background-color: #e5e5e5;
+  background: white;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 32px !important;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  #sidebar {
+    margin-bottom: 16px;
+    border-radius: 16px;
+  }
+
+  #content {
+    border-radius: 16px;
+  }
 }
 
 .contact {
@@ -51,7 +83,15 @@
 
 .contact > a {
   margin: auto 10px;
-  color: black;
+  color: #475569;
+  transition: all 0.3s ease;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.contact > a:hover {
+  background: rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
 }
 
 #linkedin:hover {
@@ -112,7 +152,30 @@
 #projects > h2,
 #skills > h2,
 #honor-awards > h2 {
-  color: #0d6efd;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  margin-bottom: 24px;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#summary > h2::after,
+#experience > h2::after,
+#education > h2::after,
+#projects > h2::after,
+#skills > h2::after,
+#honor-awards > h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
 }
 
 #content .label {
@@ -133,7 +196,22 @@
 .project,
 .honor,
 .award {
-  margin-top: 30px;
+  margin-top: 24px;
+  padding: 24px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+  transition: all 0.3s ease;
+}
+
+.work:hover,
+.degree:hover,
+.project:hover,
+.honor:hover,
+.award:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.15);
+  border-left-color: #764ba2;
 }
 
 .skillset {
@@ -150,44 +228,94 @@
 }
 
 .skill-item {
-  padding: 2px 10px;
-  border-radius: 10px;
-  margin-top: 5px;
+  padding: 4px 10px;
+  border-radius: 16px;
+  margin: 3px 3px 3px 0;
   display: inline-block;
-  font-size: small;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
 }
 
+.skill-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Programming Languages - Blue (code/syntax highlighting) */
 .programming-language {
-  background-color: #177e89;
+  background-color: #3b82f6;
   color: white;
 }
 
+.programming-language:hover {
+  background-color: #2563eb;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+/* General Skills - Dark Gray (neutral, professional) */
 .general {
-  background-color: #02020a;
+  background-color: #64748b;
   color: white;
 }
 
+.general:hover {
+  background-color: #475569;
+  box-shadow: 0 4px 12px rgba(100, 116, 139, 0.4);
+}
+
+/* Low-Code - Orange (visual/drag-drop platforms) */
 .low-code {
-  background-color: #bfacaa;
-  color: black;
+  background-color: #f97316;
+  color: white;
 }
 
+.low-code:hover {
+  background-color: #ea580c;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+}
+
+/* Tools - Purple (software tools) */
 .tools {
-  background-color: #6b9ac4;
+  background-color: #8b5cf6;
   color: white;
 }
 
+.tools:hover {
+  background-color: #7c3aed;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+}
+
+/* Frameworks - Green (building blocks/structure) */
 .framework {
-  background-color: #b497d6;
-  color: black;
+  background-color: #10b981;
+  color: white;
 }
 
+.framework:hover {
+  background-color: #059669;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+}
+
+/* Web Development - Pink/Rose (creative/frontend) */
 .web-development {
-  background-color: #335c67;
+  background-color: #ec4899;
   color: white;
 }
 
+.web-development:hover {
+  background-color: #db2777;
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.4);
+}
+
+/* Databases - Cyan (data/storage) */
 .database {
-  background-color: #4059ad;
+  background-color: #06b6d4;
   color: white;
+}
+
+.database:hover {
+  background-color: #0891b2;
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.4);
 }
